@@ -1,2 +1,2 @@
 FROM nginx
-COPY static-html-directory /usr/share/nginx/html
+RUN echo "hello world" > /usr/share/nginx/html
